@@ -64,6 +64,7 @@ const task4 = () => {
     ${getCategory(dataNumber, 1)} единиц`)
 }
 
+
 //Запуск заданий
 task1();
 task2();
