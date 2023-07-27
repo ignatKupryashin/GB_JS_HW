@@ -51,8 +51,8 @@ const task3 = () => {
     console.log(`Сумма = ${sum}`);
     const min = myArray.reduce((min, currentData) =>  currentData < min ? currentData : min, 9);
     console.log(`Минимум = ${min}`);
-    const myNumber = myArray.find(item => typeof item === "number");
-    console.log(`Первый попавшийся number в массиве = ${myNumber}`);
+    const hasNumber = myArray.some(item => typeof item === "number");
+    console.log((hasNumber) ? `В массиве есть число` : 'В массиве нет числа');
 }
 
 // *Необязательное задание. *
